@@ -1,0 +1,264 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Love and Care : Team</title>
+
+	<!--/tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Relief Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+	<!--//tags -->
+	<link href="{% static 'main/css/contact.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'main/css/team.css' %}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{% static 'main/css/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all">
+	<link href="{% static 'main/css/footer.css' %}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{% static 'main/css/style.css' %}" rel="stylesheet" type="text/css" media="all" />
+	<link href="{% static 'main/css/prettyPhoto.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'main/css/easy-responsive-tabs.css' %}" rel='stylesheet' type='text/css' />
+
+	
+	<!-- <link href="css/fontawesome-all.css" rel="stylesheet"> -->
+	<!-- //for bootstrap working -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700"
+		rel="stylesheet">   
+</head>
+
+<body>
+	{% include 'main/navbar.html' %}
+
+
+	<!-- banner -->
+	<div class="banner_top">
+		<!--//banner -->
+		<section class="about-brief-section">
+			<div class="heading-wrapper-brief">
+				<!--TEAM-->
+				
+
+
+				<section class="volunteer-section">
+                    <div class="container-vln2">
+                      <p class="subheading">Team</p>
+                      <h2 class="heading">Our Expert Team</h2>
+                      <div class="volunteer-grid">
+                        
+                        <div class="volunteer-card">
+							<div class="volunteer-img img-1"></div>
+							<div class="volunteer-name" style="background-color: #F2C94C;">Durgeshan Naiker<br><span>Volunteer</span></div>
+						  </div>
+						  
+						  <div class="volunteer-card">
+							<div class="volunteer-img img-2"></div>
+							<div class="volunteer-name" style="background-color: #EB5757;">Shila More<br><span>Volunteer</span></div>
+						  </div>
+						  <div class="volunteer-card">
+							<div class="volunteer-img img-10"></div>
+							<div class="volunteer-name" style="background-color: #2F80ED;">Diksha Bhutekar<br><span>President</span></div>
+						  </div>
+						  
+						  <div class="volunteer-card">
+							<div class="volunteer-img img-3"></div>
+							<div class="volunteer-name" style="background-color: #219653;">Harsha Mahale<br><span>Vice President</span></div>
+						  </div>
+						  
+						  <div class="volunteer-card">
+							<div class="volunteer-img img-4"></div>
+							<div class="volunteer-name" style="background-color:#2F80ED;">Pratiksha Walhekar<br><span>Secretary</span></div>
+						  </div>
+						  
+						  <div class="volunteer-card">
+							<div class="volunteer-img img-5"></div>
+							<div class="volunteer-name" style="background-color:#219653;;">Mayur Mane<br><span>Treasurer</span></div>
+						  </div>
+						  
+						  <div class="volunteer-card">
+							<div class="volunteer-img img-6"></div>
+							<div class="volunteer-name" style="background-color: #F2C94C;">Tejaswinee Chaudhari<br><span>Volunteer</span></div>
+						  </div>
+
+						  <div class="volunteer-card">
+							<div class="volunteer-img img-15"></div>
+							<div class="volunteer-name" style="background-color: #EB5757;">Kushankur Das<br><span>Volunteer</span></div>
+						  </div>
+						  
+						  <div class="volunteer-card">
+							<div class="volunteer-img img-8"></div>
+							<div class="volunteer-name" style="background-color: #2F80ED;">Nikhil Shirke<br><span>Volunteer</span></div>
+						  </div>
+						  
+						  <div class="volunteer-card">
+							<div class="volunteer-img img-9"></div>
+							<div class="volunteer-name" style="background-color: #EB5757;">Gaurav Bhagat<br><span>Volunteer</span></div>
+						  </div>
+						  
+                  
+                          
+                          
+                
+                      </div>
+                    </div>
+                    {% include 'main/footer.html' %}
+                  </section>
+				<!--TEAM-->
+
+
+				
+				
+
+			</div>
+		</section>
+
+	</div>
+   
+	<!-- //footer -->
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<!-- script for responsive tabs -->
+	<script src="js/easy-responsive-tabs.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion           
+				width: 'auto', //auto or any width like 600px
+				fit: true, // 100% fit in a container
+				closed: 'accordion', // Start closed if in accordion view
+				activate: function (event) { // Callback function if tab is switched
+					var $tab = $(this);
+					var $info = $('#tabInfo');
+					var $name = $('span', $info);
+					$name.text($tab.text());
+					$info.show();
+				}
+			});
+			$('#verticalTab').easyResponsiveTabs({
+				type: 'vertical',
+				width: 'auto',
+				fit: true
+			});
+		});
+	</script>
+	<!--// script for responsive tabs -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+			// Slideshow 4
+			$("#slider4").responsiveSlides({
+				auto: true,
+				pager: true,
+				nav: false,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+					$('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+					$('.events').append("<li>after event fired.</li>");
+				}
+			});
+
+		});
+	</script>
+	<script type="text/javascript" src="js/all.js"></script>
+	<script>
+		$('ul.dropdown-menu li').hover(function () {
+			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+		}, function () {
+			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+		});
+	</script>
+
+	<!-- js -->
+	<script type="text/javascript" src="js/simplyCountdown.js"></script>
+	<link href="css/simplyCountdown.css" rel='stylesheet' type='text/css' />
+	<script>
+		var d = new Date();
+		simplyCountdown('simply-countdown', {
+			year: d.getFullYear(),
+			month: d.getMonth() + 2,
+			day: 25
+		});
+		simplyCountdown('simply-countdown-custom', {
+			year: d.getFullYear(),
+			month: d.getMonth() + 2,
+			day: 25
+		});
+		$('#simply-countdown-losange').simplyCountdown({
+			year: d.getFullYear(),
+			month: d.getMonth() + 2,
+			day: 25
+		});
+	</script>
+	<!--js-->
+	<!--/tooltip -->
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip({
+				trigger: 'manual'
+			}).tooltip('show');
+		});
+
+		// $( window ).scroll(function() {   
+		// if($( window ).scrollTop() > 10){  // scroll down abit and get the action   
+		$(".progress-bar").each(function () {
+			each_bar_width = $(this).attr('aria-valuenow');
+			$(this).width(each_bar_width + '%');
+		});
+
+		//  }  
+		// });
+	</script>
+	<!--//tooltip -->
+	<!-- Smooth-Scrolling-JavaScript -->
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll, .navbar li a, .footer li a").click(function (event) {
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //Smooth-Scrolling-JavaScript -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+									var defaults = {
+											containerID: 'toTop', // fading element id
+										containerHoverID: 'toTopHover', // fading element hover id
+										scrollSpeed: 1200,
+										easingType: 'linear' 
+										};
+									*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+
+
+	<a href="#home" class="scroll" id="toTop" style="display: block;">
+		<span id="toTopHover" style="opacity: 1;"> </span>
+	</a>
+
+	<!-- jQuery-Photo-filter-lightbox-Gallery-plugin -->
+	<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+	<script src="js/jquery.quicksand.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<!-- //jQuery-Photo-filter-lightbox-Gallery-plugin -->
+
+
+</body>
+
+</html>

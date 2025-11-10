@@ -1,0 +1,160 @@
+
+.volunteer-section {
+    /* padding: 60px 20px; */
+    text-align: center;
+  }
+  
+  .container-vln2 {
+    max-width: 1200px;
+    padding: 60px 20px;
+    margin: 0 auto;
+  }
+  
+  .subheading {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #555;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .heading {
+    font-size: 36px;
+    color: #f15454;
+    margin-bottom: 40px;
+    font-weight: 700;
+  }
+  
+  .volunteer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .volunteer-card {
+    width: 240px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .volunteer-img {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  
+  .volunteer-name {
+    padding: 15px 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .volunteer-name span {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 4px;
+  }
+
+  .volunteer-img.img-1 {
+    background: url(../images/team/9.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+  .volunteer-img.img-2 {
+    background: url(../images/team/shila.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+  .volunteer-img.img-10 {
+    background: url(../images/team/diksha.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+  
+  .volunteer-img.img-3 {
+    background: url(../images/team/harsha.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+  .volunteer-img.img-4 {
+    background: url(../images/team/pratiksha.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+  .volunteer-img.img-5 {
+    background: url(../images/team/mayur.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+  .volunteer-img.img-6 {
+    background: url(../images/team/teju.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+  .volunteer-img.img-15 {
+    background: url(../images/team/kush.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+  .volunteer-imgimg-7 {
+    background: url(../images/team/kush.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+  .volunteer-img.img-8 {
+    background: url(../images/team/nik.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+  .volunteer-img.img-9 {
+    background: url(../images/team/gaurav.png) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+  
+  
